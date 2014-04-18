@@ -1,0 +1,16 @@
+blinkx_data:
+  name: ~full_name
+  address: ~street_address
+  email: ~email_address
+  pay_type: ~randomize(['Check', 'Card', 'COD'])
+  cdate: ~dm_today
+  fdate: ~3.days_from_today('%D')
+  pdate: ~3.days_ago('%d/%m/%y')
+
+
+homepage:
+  category: "News & Politics"
+
+videoContainerPage:
+  index: 1
+

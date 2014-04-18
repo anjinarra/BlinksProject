@@ -1,0 +1,5 @@
+default: -f html --out html-report/report_firefox.html
+chrome: FIG_NEWTON_FILE=chrome.yml -f html --out html-report/report_chrome.html
+firefox: -f html --out html-report/report_firefox.html
+ie: FIG_NEWTON_FILE=ie.yml -f html --out html-report/report_ie.html
+iphone: FIG_NEWTON_FILE=iphone.yml -f html --out html-report/report_iphone.html
